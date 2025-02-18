@@ -1,0 +1,3669 @@
+fileFormatVersion: 2
+guid: 981ab380b723ed949a10d9c1ddf755f5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chargeSword_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1770
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ceede6db69a92442a21a10fbe5727e0
+      internalID: -1543700926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1770
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62720f53bae85764c8b744810f460cc2
+      internalID: 1966461785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1767
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5496d422b21f5c47881f7d487b349fe
+      internalID: -1199745778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1770
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.43, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be29cf010aa9de74d87c4f0222cdf8b7
+      internalID: 591147540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1770
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.45, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdccdcb1cca0fd47a73d2ddd377ea29
+      internalID: 126773546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1770
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.43, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032d20a3bbeb30b47a785d46243005b5
+      internalID: -850304246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1770
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.44, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cffe1357dc2ad408456f8db8573366
+      internalID: -567955986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_7
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1770
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.44, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4723d5d348eacb8488cff954f3b3b1e3
+      internalID: -1650583689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_8
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1770
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.44, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cdd0ed0a958a2469a77c52e2bcc50b
+      internalID: -1175766354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_9
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1770
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.44, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9e5ff8282cd1b44965bb1fb1f44847
+      internalID: -1407696526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1660
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2630cc0beebda141a5c14fe88bfb3ce
+      internalID: 354019927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1660
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d9f65b01c3c4642b4d056a4e2fc128
+      internalID: -1657105954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_12
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1661
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47167f989bb6884b8cb75d8e09ecb52
+      internalID: -2020571523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_13
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1660
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28361b2fd2826ec4bbf73ad3c46cf20e
+      internalID: -1975889924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_14
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1660
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af39afd7b682e643bb872fb5d9cb704
+      internalID: -1352839434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_15
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1660
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7a6c268f83ab04899ad2901fdbb207
+      internalID: 837015638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_16
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1660
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2e450530e2091458e35163a34bed07
+      internalID: -487197354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_17
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1662
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c574070120bcc564887126384a3c97fe
+      internalID: 378511970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1660
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55c6366edbd45e41a347e3b3043536e
+      internalID: -742474534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_19
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1660
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5686cf02ba6e054791a49475139411e
+      internalID: -634490029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1550
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851f2d9ee4d8430429ce25fd3dcca4c0
+      internalID: -1787255825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_21
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1550
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6a34ddcd0dca4499a53f2ead202115
+      internalID: 750470605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_22
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1550
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa610b7fe7f8984ea23d32380610ed1
+      internalID: -1761762925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_23
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1550
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228bd0588f6078748a8b3abcdd004074
+      internalID: 1723860887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_24
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1550
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28d2eaaa1e941045a169826ead708e3
+      internalID: -799835964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_25
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1550
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7ffe113ae991d419e771051fcd4c7f
+      internalID: -1396002562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_26
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1550
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5a2633cbde19d47bcde1f0760d3433
+      internalID: 964463840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_27
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1550
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8248187cf32c79b4691197326ef48dd4
+      internalID: -562604705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_28
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1550
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc126624e93dec40a93b7c9db09b948
+      internalID: 1843946841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_29
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1550
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e25eda5833810d4b8114548705e4cb9
+      internalID: 949829909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42ef4c6938d29a4d922e0b69a4214b4
+      internalID: 1457527589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_31
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1440
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78125553c15a9a4486d558f26459b5c
+      internalID: 1911321539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_32
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1440
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cf926f6e08cf8408aae04426a5ab63
+      internalID: -2095007408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_33
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1440
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2b377f4c3163c4f9d1726b5c70a0f0
+      internalID: 523683708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_34
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1440
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a709058856923f4a851780b06e08d94
+      internalID: 1368337458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_35
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1440
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f41107c9220c5428906a2f3e1abd9e
+      internalID: -466987950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_36
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1440
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96922c329959b9a40bd1bd8555c565ca
+      internalID: -1088557783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_37
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1440
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de222a8d56be4274bbd7913808dba721
+      internalID: 1748229531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_38
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1440
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ab1dffe6c0e0241861e488e64649a4
+      internalID: -44335347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_39
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1440
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6863eb2ca426b504bb082f978d9e5a95
+      internalID: -122072165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1330
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2f3bea4a129ea4aa3389f3a655af8f
+      internalID: 659602989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_41
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1330
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d22ef7a6263384aaf301113eca3ed8
+      internalID: 53240323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_42
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1330
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3552856a9ef66994caf536ec40c62cb0
+      internalID: -61722522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_43
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1330
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.47, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebc653ab3799f54fb9250897d7c5b2e
+      internalID: 1421564709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_44
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1329
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.45, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a0c7c5928cc314e96bd7976325fdc7
+      internalID: 877800759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_45
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1330
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.45, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d44963f2a02dd941a8622d000eba314
+      internalID: 35472644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_46
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1330
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.45, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5a108aae877f444b5345d80b271b7b
+      internalID: 221210383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_47
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1330
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.45, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98063f85a7f8ddd4ea6b2971b7612710
+      internalID: -427353614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_48
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1330
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.45, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388d6e476e6d06a469b4dae3cf1cd323
+      internalID: -1728667805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_49
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1330
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.45, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7856239b7ad6e54c8d7a613550667ae
+      internalID: -320629840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1220
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcc154ea5a271c43ac2b4de9b84d7bf
+      internalID: -160317156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_51
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1220
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a538fc1eff7600e45b267720bdbe60ad
+      internalID: 212938839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_52
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1220
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32edf2811954f143bc6152e48730eeb
+      internalID: -553325339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_53
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1223
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a15aa6b548eb44aba27e7b20f5c7c9
+      internalID: 23919028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_54
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1220
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10af6e9605294a418548e8d2ee296c3
+      internalID: -1758036507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_55
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1220
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabfaaa6e03d9ea4eb1c31375f8d9397
+      internalID: -802892677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_56
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1220
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0847885f651926e45a1d5e4f37e46d2d
+      internalID: -906767412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_57
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1220
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3951fe8aa8c9246a470010857da4d8
+      internalID: -1723166521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_58
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1220
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1889d37147737f47988aa40318db56b
+      internalID: 375422863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_59
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1220
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9369ac6e9acca834fb88629e38ae4297
+      internalID: 2115970180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1110
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aea02fccf0ae064aa5c2b278ce5dc39
+      internalID: -1985256005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_61
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1111
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ae871b5a8eca443bdfdba8754002e4
+      internalID: -1131397506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_62
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1110
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c80cc28dcd9cd4fbdcfbe49e2af34a
+      internalID: -1804619646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_63
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1110
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfad1b696ae4e64380605c6bf8186ff
+      internalID: 1468901528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_64
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1110
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496c6ac3ca7281641ad29d3327c94cd4
+      internalID: -208636569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_65
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1110
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae511c26e2f0b14bb5ad9fc8672b13b
+      internalID: -1387939773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_66
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1110
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae5b869a9d896943b62044ea8039e32
+      internalID: 1987400115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_67
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1110
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab4948915a5c3d45996ad3c8f54f141
+      internalID: -627698576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_68
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1110
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7c6549cc25da946bfa5e9f0680d543
+      internalID: -1090948214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_69
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1110
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e31f655ccecd8438f60955c54636d8
+      internalID: 1299869349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3747763f94a04d843af28d2dd6378ee4
+      internalID: 1410275596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_71
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1000
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34241f58adc4ed40b6826c0676f7d3f
+      internalID: 2087832524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_72
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1000
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fcad36ebe28dd4bb222d3b71b1f992
+      internalID: 418124016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_73
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1000
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc3fb623b0eb3b4ab3d494a43a8837b
+      internalID: -913957060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_74
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1000
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d1e167ef4e4b2449de9198fcf41606
+      internalID: -740020507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_75
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1000
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29acb4263d54864f81b06bcbf4b957f
+      internalID: -62502696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_76
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1000
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64990ed6939258144add9180a0b304f6
+      internalID: -729851607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_77
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1000
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61d4fb58e251244c9c1f8717cc558f8
+      internalID: 1722175169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_78
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1000
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16e9fe09a555cf4c972bc5c14ca54bc
+      internalID: -135578958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_79
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1000
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292eb2781c4f37b4091abee4096f17f8
+      internalID: -183669085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 890
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c336536f38dcd408655f33d29f6737
+      internalID: -1329944925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_81
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 890
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.37, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fa267342183474387cd415cb978fe8
+      internalID: -1551845484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_82
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 890
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315fb138180573041857b25dd0ad7230
+      internalID: 1343132542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_83
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 890
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f14f88df64397478d9abdf1697670e
+      internalID: -1324544035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_84
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 892
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.44, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6a9481e388000418607eaf1a4089a0
+      internalID: -1541527988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_85
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 890
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.48, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5719c2c2f4bde34fa179f1851129163
+      internalID: -1195481318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_86
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 890
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.48, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef377ffff68db2e43848000e2f8f4a11
+      internalID: -1994162804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_87
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 891
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.48, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c4f7136f74f5c48a013b0cce4c17a4
+      internalID: -1692122116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_88
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 890
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.48, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67ff8f6aad4cde46a7ae536b1219b09
+      internalID: 1430349356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_89
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 890
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.48, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6ac1e91a9736e4798a3286cfdaebac
+      internalID: 217581563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 780
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.42, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44d89ba87f42054eb518544e57f7ff2
+      internalID: -694011978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_91
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 783
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693a554c3f514d34a9272cd5b9a41910
+      internalID: 95548012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_92
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 780
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d07004cb22685409c2ad87ef05b02d
+      internalID: 439500919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_93
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 780
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2db0c3acbe5a604f95c2f6b750bf5f7
+      internalID: -1469525237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_94
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 780
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5bd8cffe2de0041983435471dc8e68
+      internalID: -568970114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_95
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 781
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2817b1b79e56c664e8fadb6ead56c7a6
+      internalID: -416707745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_96
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 780
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe84f755efe6a443808d1c6240ed5fa
+      internalID: 1298824385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_97
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 780
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8499a91e4b6507c40b252eefc05a9d15
+      internalID: 427738400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_98
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 780
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4af89626d578ed44bca9f85eb6e3a93
+      internalID: 1866087171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_99
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 780
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92be574fb97694c4aab426665e56d4b6
+      internalID: 1610636681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 670
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.37, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1889251a8734645b8e5e5e9618a50d
+      internalID: -1031740527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_101
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 670
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.37, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5dc38575a9d55489d412b23a577198
+      internalID: -1993494027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_102
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 670
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.37, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a647cf8653091940b72cbf04c754308
+      internalID: -2119031412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_103
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 686
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.37, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a35f37c50a6c0489def9c8ae87a757
+      internalID: -765393670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_104
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 669
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.37, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8b1371ba0821e42bce80985131631a
+      internalID: -100556060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_105
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 670
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5082a4c5f15cb86418e469245256f033
+      internalID: 345218494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_106
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 671
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a11d4a49282e6c458ee69b3461e6998
+      internalID: -323891439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_107
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 670
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff1426fe2eef1e47b1eea3f1c74837f
+      internalID: 1494226975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_108
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 670
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b798482150030bc40b8a5cba102fbfee
+      internalID: -219431461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_109
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 670
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cc853522ce71e4c9abaf6dcd3ac466
+      internalID: -2002863663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.36, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362a679ed72b6b644ae56957bfab106e
+      internalID: 1680360165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_111
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 560
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d6e9fb51237324bbd10562c6f372b1
+      internalID: -1791683270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_112
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 560
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192d37f157b07444ab7fc1656b5efb1b
+      internalID: 373300796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_113
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 577
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0aa8aa82ad33d498f30bd98fa4cec7
+      internalID: 1806537179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_114
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 560
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a33bedfea4f2794498ff247911d94c4
+      internalID: 877663444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_115
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 560
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6763c5b718c45c4fb1b526760b48a4a
+      internalID: -1679314666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_116
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 560
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817703a583239944b8c5babd61dba051
+      internalID: -2101978983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_117
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 560
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2990b8773a008504286e215a8da268f3
+      internalID: -1281039469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_118
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 560
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305b6a628c5fa6441b8e705e735bdc21
+      internalID: 28484445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_119
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 560
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93555ab84fae824f974a1a98d72838b
+      internalID: -262470184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180bc8cc39b3b7d4ca1ec5621095e751
+      internalID: 720976291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_121
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 450
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d7b9e9deab1074288b25405e09d29a
+      internalID: 1096735354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_122
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 450
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.44, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528b3d90669688047a62c34fce5f0e1a
+      internalID: -553811552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_123
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 450
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.44, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c842e6e5b769d4386873b46e22bfc4
+      internalID: 262476062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_124
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 450
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.44, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4de13b8e5b960246b12d23fc11e308b
+      internalID: -528131442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_125
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 450
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.42, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d1f5ea2efc2da498303b32d3845ca3
+      internalID: -19891502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_126
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 450
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.45, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5b78fa4ab1baa41841c6c7b74f07db
+      internalID: 486528476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_127
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 450
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.36, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bd1dbbdc4b5264591366346754a37e
+      internalID: -1140469071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_128
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 447
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b6f6c8d8ed3ca4cbc536ccb8252ac6
+      internalID: -1692904225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_129
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 450
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69fd11d896294d49b712caedaa3bbf3
+      internalID: 1963313902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_130
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 338
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b87faf5fc96b4b4b9b5f2d25a4bc829
+      internalID: 1526745591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_131
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 340
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.34}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50eda11d75e75464d96a756bf3817672
+      internalID: -754183784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_132
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 340
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da41c02fcd02634dbe91dc42837f560
+      internalID: -1422131587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_133
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 340
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6681c779f6bb7c4f9863442da50fd86
+      internalID: -1233612128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_134
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 340
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db71e19522cc4942a24834df0f43bad
+      internalID: 1248217040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_135
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 340
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198fd5e57f7d88e45809e14084b0604d
+      internalID: -1465209421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_136
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 340
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e0513b07f917545889765017299e77
+      internalID: -818634749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_137
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 340
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c382f97d5f332e846a64cd739f070b6f
+      internalID: 1786726878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_138
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 340
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8622f2a4c8ce73942b43ab6abbf89389
+      internalID: -1250333387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_139
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 340
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cb70621a069094686778be983b1a28
+      internalID: -895782333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba90689bd0178f40b27f25597ac6b97
+      internalID: 861328339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_141
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 230
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e18bb91bf8fc34d9b0aa853d780012
+      internalID: -1420994084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_142
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 231
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fe628c48ba8f74aa06249a3f8647ab
+      internalID: -888632154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_143
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 230
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45a2b94efa800646bff47b85c6ec902
+      internalID: -2120154493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_144
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 230
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a91b26b50678b4b92890a73c3f46ca
+      internalID: -1148392131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_145
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 230
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767ec8b79d82b5d49b92783043eed4c0
+      internalID: -776445485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_146
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 230
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ca089586e415f43a49d1a7f19585eb
+      internalID: 315189172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_147
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 230
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59458ddb969f8aa4d81497354b681161
+      internalID: -1249915227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_148
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 230
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f76bcd763d13d438d1dddd580ed3e2
+      internalID: 420125756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_149
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 230
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a2843705eeeeb47ab11119a8624192
+      internalID: -1492953561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cbc9591270cf740bedcd6021019f0d
+      internalID: 307706394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_151
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 120
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758338557e2a9e247a0340984876ca3a
+      internalID: -779217157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 144
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 47, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3d2baa821333842ae4d6880efff82f
+      internalID: 172060118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_153
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 14
+        width: 150
+        height: 110
+      alignment: 9
+      pivot: {x: 0.3, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7799f563692d7f343ab88f55fd9e0f1c
+      internalID: 1798952525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_154
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 13
+        width: 110
+        height: 150
+      alignment: 9
+      pivot: {x: 0.1, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80389e5641c20c47adb3400ffe47daf
+      internalID: 258122440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_155
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 12
+        width: 110
+        height: 150
+      alignment: 9
+      pivot: {x: 0.1, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29c221715e0a22408b1257b564a6d14
+      internalID: 983453198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_156
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 11
+        width: 110
+        height: 150
+      alignment: 9
+      pivot: {x: 0.2, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbaf3665e96267344b317cfdbc9a5a82
+      internalID: -829227374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_157
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 10
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d2cad97ef9e9c49b8c752fd3b60101
+      internalID: -101492662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_158
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 10
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415f5689fd8f4a948b0929a2c7cee37e
+      internalID: -63101177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_159
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 10
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79115a4154cd0f41a3da259523e3e04
+      internalID: -1542170502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chargeSword_160
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 10
+        width: 150
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d226099e0b1e538409282ef657441bab
+      internalID: -112575164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      chargeSword_0: -1543700926
+      chargeSword_1: 1966461785
+      chargeSword_10: 354019927
+      chargeSword_100: -1031740527
+      chargeSword_101: -1993494027
+      chargeSword_102: -2119031412
+      chargeSword_103: -765393670
+      chargeSword_104: -100556060
+      chargeSword_105: 345218494
+      chargeSword_106: -323891439
+      chargeSword_107: 1494226975
+      chargeSword_108: -219431461
+      chargeSword_109: -2002863663
+      chargeSword_11: -1657105954
+      chargeSword_110: 1680360165
+      chargeSword_111: -1791683270
+      chargeSword_112: 373300796
+      chargeSword_113: 1806537179
+      chargeSword_114: 877663444
+      chargeSword_115: -1679314666
+      chargeSword_116: -2101978983
+      chargeSword_117: -1281039469
+      chargeSword_118: 28484445
+      chargeSword_119: -262470184
+      chargeSword_12: -2020571523
+      chargeSword_120: 720976291
+      chargeSword_121: 1096735354
+      chargeSword_122: -553811552
+      chargeSword_123: 262476062
+      chargeSword_124: -528131442
+      chargeSword_125: -19891502
+      chargeSword_126: 486528476
+      chargeSword_127: -1140469071
+      chargeSword_128: -1692904225
+      chargeSword_129: 1963313902
+      chargeSword_13: -1975889924
+      chargeSword_130: 1526745591
+      chargeSword_131: -754183784
+      chargeSword_132: -1422131587
+      chargeSword_133: -1233612128
+      chargeSword_134: 1248217040
+      chargeSword_135: -1465209421
+      chargeSword_136: -818634749
+      chargeSword_137: 1786726878
+      chargeSword_138: -1250333387
+      chargeSword_139: -895782333
+      chargeSword_14: -1352839434
+      chargeSword_140: 861328339
+      chargeSword_141: -1420994084
+      chargeSword_142: -888632154
+      chargeSword_143: -2120154493
+      chargeSword_144: -1148392131
+      chargeSword_145: -776445485
+      chargeSword_146: 315189172
+      chargeSword_147: -1249915227
+      chargeSword_148: 420125756
+      chargeSword_149: -1492953561
+      chargeSword_15: 837015638
+      chargeSword_150: 307706394
+      chargeSword_151: -779217157
+      chargeSword_152: 172060118
+      chargeSword_153: 1798952525
+      chargeSword_154: 258122440
+      chargeSword_155: 983453198
+      chargeSword_156: -829227374
+      chargeSword_157: -101492662
+      chargeSword_158: -63101177
+      chargeSword_159: -1542170502
+      chargeSword_16: -487197354
+      chargeSword_160: -112575164
+      chargeSword_17: 378511970
+      chargeSword_18: -742474534
+      chargeSword_19: -634490029
+      chargeSword_2: -1199745778
+      chargeSword_20: -1787255825
+      chargeSword_21: 750470605
+      chargeSword_22: -1761762925
+      chargeSword_23: 1723860887
+      chargeSword_24: -799835964
+      chargeSword_25: -1396002562
+      chargeSword_26: 964463840
+      chargeSword_27: -562604705
+      chargeSword_28: 1843946841
+      chargeSword_29: 949829909
+      chargeSword_3: 591147540
+      chargeSword_30: 1457527589
+      chargeSword_31: 1911321539
+      chargeSword_32: -2095007408
+      chargeSword_33: 523683708
+      chargeSword_34: 1368337458
+      chargeSword_35: -466987950
+      chargeSword_36: -1088557783
+      chargeSword_37: 1748229531
+      chargeSword_38: -44335347
+      chargeSword_39: -122072165
+      chargeSword_4: 126773546
+      chargeSword_40: 659602989
+      chargeSword_41: 53240323
+      chargeSword_42: -61722522
+      chargeSword_43: 1421564709
+      chargeSword_44: 877800759
+      chargeSword_45: 35472644
+      chargeSword_46: 221210383
+      chargeSword_47: -427353614
+      chargeSword_48: -1728667805
+      chargeSword_49: -320629840
+      chargeSword_5: -850304246
+      chargeSword_50: -160317156
+      chargeSword_51: 212938839
+      chargeSword_52: -553325339
+      chargeSword_53: 23919028
+      chargeSword_54: -1758036507
+      chargeSword_55: -802892677
+      chargeSword_56: -906767412
+      chargeSword_57: -1723166521
+      chargeSword_58: 375422863
+      chargeSword_59: 2115970180
+      chargeSword_6: -567955986
+      chargeSword_60: -1985256005
+      chargeSword_61: -1131397506
+      chargeSword_62: -1804619646
+      chargeSword_63: 1468901528
+      chargeSword_64: -208636569
+      chargeSword_65: -1387939773
+      chargeSword_66: 1987400115
+      chargeSword_67: -627698576
+      chargeSword_68: -1090948214
+      chargeSword_69: 1299869349
+      chargeSword_7: -1650583689
+      chargeSword_70: 1410275596
+      chargeSword_71: 2087832524
+      chargeSword_72: 418124016
+      chargeSword_73: -913957060
+      chargeSword_74: -740020507
+      chargeSword_75: -62502696
+      chargeSword_76: -729851607
+      chargeSword_77: 1722175169
+      chargeSword_78: -135578958
+      chargeSword_79: -183669085
+      chargeSword_8: -1175766354
+      chargeSword_80: -1329944925
+      chargeSword_81: -1551845484
+      chargeSword_82: 1343132542
+      chargeSword_83: -1324544035
+      chargeSword_84: -1541527988
+      chargeSword_85: -1195481318
+      chargeSword_86: -1994162804
+      chargeSword_87: -1692122116
+      chargeSword_88: 1430349356
+      chargeSword_89: 217581563
+      chargeSword_9: -1407696526
+      chargeSword_90: -694011978
+      chargeSword_91: 95548012
+      chargeSword_92: 439500919
+      chargeSword_93: -1469525237
+      chargeSword_94: -568970114
+      chargeSword_95: -416707745
+      chargeSword_96: 1298824385
+      chargeSword_97: 427738400
+      chargeSword_98: 1866087171
+      chargeSword_99: 1610636681
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
