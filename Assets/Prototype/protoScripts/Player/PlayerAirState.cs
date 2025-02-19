@@ -30,5 +30,15 @@ public class PlayerAirState : PlayerState
         {
             stateMachine.ChangeState(player.airParryState); 
         }
+
+        if(Input.GetKeyDown(KeyCode.Space) && player.currentMagicStateID == 23 && player.canAirAttack)
+        {
+            stateMachine.ChangeState(player.airAttackState);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space) && player.currentMagicStateID == 32 && player.canAirWalk)
+        {
+            stateMachine.ChangeState(player.airWalkState);
+        }
     }
 }

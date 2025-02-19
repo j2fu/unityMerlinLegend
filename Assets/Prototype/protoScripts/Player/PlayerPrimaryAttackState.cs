@@ -66,12 +66,6 @@ public class PlayerPrimaryAttackState : PlayerState
         comboCounter++;
         lastTimeAttacked = Time.time;
         player.lastTimeAttacked = lastTimeAttacked;
-
-        //reset attackbox size
-        player.attackHitBoxSize.x = 6.0f;
-        player.attackHitBoxSize.y = 6.0f;
-        player.attackHitBoxCenterOffset.x = 2.0f;
-        player.attackHitBoxCenterOffset.y = 0.0f;
         player.showAttackHitBox = false;
 
     }
@@ -91,7 +85,7 @@ public class PlayerPrimaryAttackState : PlayerState
         }
 
 
-        //attack box contruction
+        //Flame Blade attack box contruction
         float attackBoxCenterX;
         float attackBoxCenterY;
 
@@ -111,6 +105,11 @@ public class PlayerPrimaryAttackState : PlayerState
         Vector2 attackBoxBottomLeft = new Vector2(attackBoxCenter.x - player.attackHitBoxSize.x / 2, attackBoxCenter.y - player.attackHitBoxSize.y / 2);
         Vector2 attackBoxTopRight = new Vector2(attackBoxCenter.x + player.attackHitBoxSize.x / 2, attackBoxCenter.y + player.attackHitBoxSize.y / 2);
 
+        Collider2D[] detectedObjects = Physics2D.OverlapAreaAll(attackBoxBottomLeft, attackBoxTopRight, player.whatIsDamageable);
+        foreach (Collider2D collider in detectedObjects)
+        {
+            Debug.Log("Hit: " + collider.name);
+        }
     }
 
         

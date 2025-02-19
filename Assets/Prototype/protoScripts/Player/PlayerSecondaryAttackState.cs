@@ -15,6 +15,8 @@ public class PlayerSecondaryAttackState : PlayerState
         secondaryAttackCombo = player.comboCounter;
         player.anim.SetInteger("FollowUpCounter", secondaryAttackCombo);
 
+        
+
         if (secondaryAttackCombo == 0)
         {
             player.followUpHitBoxSize.x = 12.0f;
@@ -54,6 +56,28 @@ public class PlayerSecondaryAttackState : PlayerState
         if(followUpEnabled)
         {
             player.showFollowUpHitBox = true;
+        }
+
+        //follow up attackBox Construction
+        float followUpBoxCenterX;
+        float followUpBoxCenterY;
+        if (player.facingRight)
+        {
+            followUpBoxCenterX = player.transform.position.x + player.followUpHitBoxCenterOffset.x;
+            followUpBoxCenterY = player.transform.position.y + player.followUpHitBoxCenterOffset.y;
+        }
+        else
+        {
+            followUpBoxCenterX = player.transform.position.x - player.followUpHitBoxCenterOffset.x;
+            followUpBoxCenterY = player.transform.position.y + player.followUpHitBoxCenterOffset.y;
+        }
+        Vector2 followUpBoxCenter = new Vector2(followUpBoxCenterX, followUpBoxCenterY);
+        Vector2 followUpBoxBottomLeft = new Vector2(followUpBoxCenter.x - player.followUpHitBoxSize.x / 2, followUpBoxCenter.y - player.followUpHitBoxSize.y / 2);
+        Vector2 followUpBoxTopRight = new Vector2(followUpBoxCenter.x + player.followUpHitBoxSize.x / 2, followUpBoxCenter.y + player.followUpHitBoxSize.y / 2);
+        Collider2D[] detectedObjects = Physics2D.OverlapAreaAll(followUpBoxBottomLeft, followUpBoxTopRight, player.whatIsDamageable);
+        foreach (Collider2D collider in detectedObjects)
+        {
+            Debug.Log("Follow Up Hit: " + collider.name);
         }
     }
 }

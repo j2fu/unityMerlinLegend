@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     public string currentElements;
     public int currentMagicStateID;
 
-    [Header("Attack Details")]
+    [Header("Ground Attack Details")]
     public Vector2[] attackMovement;
     public bool isBusy;
     public GameObject attackHitBox;
@@ -23,6 +23,14 @@ public class Player : MonoBehaviour
     public Vector2 followUpHitBoxCenterOffset;
     public Vector2 followUpHitBoxSize;
     public bool showFollowUpHitBox;
+
+    [Header("Air Attack/Move Details")]
+    public GameObject airAttackHitBox;
+    public Vector2 airAttackHitBoxCenterOffset;
+    public Vector2 airAttackHitBoxSize;
+    public bool showAirAttackHitBox;
+    public bool canAirAttack;
+    public bool canAirWalk;
 
     [Header("Parry/Defense Details")]
     [HideInInspector] public float invincibleTime;
@@ -45,12 +53,14 @@ public class Player : MonoBehaviour
     public float moveSpeed = 12f;
     public float jumpForce;
     public float airForce;
+    public float airAttackJumpForce;
 
     [Header("Collision Info")]
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundCheckDistance;
     [SerializeField] private LayerMask whatIsGround;
-    [SerializeField] private LayerMask whatIsEnemy;
+    public LayerMask whatIsDamageable;
+    public LayerMask whatIsMelleAttack;
 
     public int facingDir { get; private set; } = 1;
     public bool facingRight { get; private set; } = true;
@@ -75,6 +85,8 @@ public class Player : MonoBehaviour
     public PlayerDefenseState defenseState { get; private set; }
     public PlayerAirParryState airParryState { get; private set; }
     public PlayerSecondaryAttackState secondaryAttackState { get; private set; }
+    public PlayerAirAttackState airAttackState { get; private set; }
+    public PlayerAirWalkState airWalkState { get; private set; }
     #endregion
 
     private void Awake()
@@ -90,7 +102,8 @@ public class Player : MonoBehaviour
         defenseState = new PlayerDefenseState(this, stateMachine, "Defense");
         airParryState = new PlayerAirParryState(this, stateMachine, "AirParry");
         secondaryAttackState = new PlayerSecondaryAttackState(this, stateMachine, "FollowUpAttack");
-
+        airAttackState = new PlayerAirAttackState(this, stateMachine, "AirAttack");
+        airWalkState = new PlayerAirWalkState(this, stateMachine, "AirWalk");
     }
 
     private void Start()
@@ -245,8 +258,27 @@ public class Player : MonoBehaviour
             }
             Vector2 followUpBoxCenter = new Vector2(followUpBoxCenterX, followUpBoxCenterY);
             Gizmos.DrawWireCube((Vector2)followUpBoxCenter, followUpHitBoxSize);
-
         }
+
+        //AirAttack box check
+        float airAttackBoxCenterX;
+        float airAttackBoxCenterY;
+        if (showAirAttackHitBox)
+        {
+            if (facingRight)
+            {
+                airAttackBoxCenterX = transform.position.x + airAttackHitBoxCenterOffset.x;
+                airAttackBoxCenterY = transform.position.y + airAttackHitBoxCenterOffset.y;
+            }
+            else
+            {
+                airAttackBoxCenterX = transform.position.x - airAttackHitBoxCenterOffset.x;
+                airAttackBoxCenterY = transform.position.y + airAttackHitBoxCenterOffset.y;
+            }
+            Vector2 airAttackBoxCenter = new Vector2(airAttackBoxCenterX, airAttackBoxCenterY);
+            Gizmos.DrawWireCube((Vector2)airAttackBoxCenter, airAttackHitBoxSize);
+        }
+        
 
     }
     #endregion

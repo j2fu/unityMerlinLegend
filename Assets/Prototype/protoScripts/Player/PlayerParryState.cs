@@ -56,6 +56,8 @@ public class PlayerParryState : PlayerState
             }
         }
 
+        //Wind Shield parry hitbox contruction
+
 
     }
 }

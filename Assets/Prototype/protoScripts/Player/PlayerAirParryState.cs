@@ -8,14 +8,14 @@ public class PlayerAirParryState : PlayerState
     {
     }
 
-    private float parryDuration = 0.4f;
+    private float parryWindow = 0.4f;
     private float parryTimer;
 
 
     public override void Enter()
     {
         base.Enter();
-        parryTimer = parryDuration;
+        parryTimer = parryWindow;
         player.setVelocity(0, 0);
         player.rb.gravityScale = 0;
         player.showAirParryHitBox = true;
@@ -28,8 +28,10 @@ public class PlayerAirParryState : PlayerState
 
         //reset player color
         player.spriteRenderer.color = Color.white;
-        player.showAirParryHitBox = false;
         player.rb.gravityScale = 10;
+        player.canAirAttack = true;
+        player.canAirWalk = true;
+        player.showAirParryHitBox = false;
     }
 
     public override void Update()

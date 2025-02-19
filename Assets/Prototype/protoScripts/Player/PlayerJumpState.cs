@@ -14,6 +14,7 @@ public class PlayerJumpState : PlayerState
         if(player.currentMagicStateID == 32)
         {
             rb.velocity = new Vector2(rb.velocity.x, player.jumpForce * 1.5f);
+            player.canAirWalk = false;
         }
         else
         {
@@ -38,5 +39,16 @@ public class PlayerJumpState : PlayerState
         {
             stateMachine.ChangeState(player.airParryState);
         }
+
+        if (Input.GetKeyDown(KeyCode.Space) && player.currentMagicStateID == 23 && player.canAirAttack)
+        {
+            stateMachine.ChangeState(player.airAttackState);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space) && player.currentMagicStateID == 32 && player.canAirWalk)
+        {
+            stateMachine.ChangeState(player.airWalkState);
+        }
+
     }
 }

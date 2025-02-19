@@ -50,7 +50,7 @@ public class MagicOrbs : MonoBehaviour
     void RotateOrbs()
     {
         float centerX = player.transform.position.x;
-        float centerY = player.transform.position.y + height; // Adjust height above the player
+        float centerY = player.transform.position.y + height; 
 
         for (int i = 0; i < orbs.Length; i++)
         {
@@ -90,7 +90,7 @@ public class MagicOrbs : MonoBehaviour
             {
                 case 1: magicState += "Fire "; break;
                 case 2: magicState += "Light "; break;
-                case 3: magicState += "Ice "; break;
+                case 3: magicState += "Wind "; break;
             }
         }
 
